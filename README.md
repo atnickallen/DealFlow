@@ -3,4 +3,4 @@ Realtime Dealflow of New Venture Rounds Entered Directly Into Airtable
 
 
 
-# Pulling New Rounds
+# Defining Round Types
