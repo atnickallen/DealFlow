@@ -3,9 +3,14 @@ Realtime Dealflow of New Venture Rounds Entered Directly Into Airtable
 
 
 
-# Defining Round Types
+## Set your API keys
 
-funding_types = [
+Use the ```settings.py``` file to set your Crunchbase API key and your Airtable API.
+
+
+## Choose your round types
+
+```funding_types = [
     "convertible_note",
     "angel",
     "pre_seed",
@@ -13,3 +18,5 @@ funding_types = [
     "equity_crowdfunding",
     "grant",
 ]
+```
+
