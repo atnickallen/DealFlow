@@ -23,7 +23,7 @@ funding_types = [
 ]
 ```
 
-## All possible choices
+## All possible round types
 
     map = {
         "pre_seed": "Pre-Seed",
