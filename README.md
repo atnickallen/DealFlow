@@ -4,3 +4,12 @@ Realtime Dealflow of New Venture Rounds Entered Directly Into Airtable
 
 
 # Defining Round Types
+
+funding_types = [
+    "convertible_note",
+    "angel",
+    "pre_seed",
+    "seed",
+    "equity_crowdfunding",
+    "grant",
+]
