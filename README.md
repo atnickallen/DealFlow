@@ -59,6 +59,8 @@ funding_types = [
     ```
     
    ## Get round properties
+   
+   Use ```functions.py``` to set the properties you want for each round
     
     return {
         "ID": crunchbase_funding_round["uuid"],
