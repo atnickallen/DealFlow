@@ -56,3 +56,25 @@ funding_types = [
         "series_j": "Series J",
         "series_unknown": "Venture - Series Unknown",
     }
+    ```
+    
+   ## Get round properties
+    
+    return {
+        "ID": crunchbase_funding_round["uuid"],
+        "Round Type": humanize_funding_type(properties["funding_type"]),
+        "Round Size": properties["target_money_raised_usd"],
+        "Raised So Far": properties["money_raised_usd"],
+        "Pre-Money Valuation or Note Cap": properties["pre_money_valuation_usd"],
+        "Close Date": properties.get("close_date"),
+        "Announcement Date": properties["announced_on"],
+        "Company": [crunchbase_funding_round["company_airtable_id"]],
+        "Investors": list(set(crunchbase_funding_round["fund_airtable_ids"])),
+        "Lead Investor": [crunchbase_funding_round["lead_fund_airtable_id"]]
+        if crunchbase_funding_round["lead_fund_airtable_id"] is not None
+        else None,
+        "Last Updated": datetime.fromtimestamp(properties["updated_at"]).isoformat(),
+    }
+
+    
+    
