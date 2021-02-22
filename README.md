@@ -10,7 +10,8 @@ Use the ```settings.py``` file to set your Crunchbase API key and your Airtable 
 
 ## Choose your round types
 
-```funding_types = [
+```
+funding_types = [
     "convertible_note",
     "angel",
     "pre_seed",
