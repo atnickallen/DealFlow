@@ -1,8 +1,8 @@
-crunchbase_key = "cc6290c8c04ac761c1e5d740aa60b3a4"
+crunchbase_key = "XXX"
 
 crunchbase_url = "https://api.crunchbase.com/v3.1/funding-rounds"
 
-airtable_key = "keyoa6zcViNZmNeHe"
+airtable_key = "XXX"
 
 
 class airtable_urls:
